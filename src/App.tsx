@@ -28,7 +28,14 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/tentang" element={<Tentang />} />
         <Route path="/layanan/shipping" element={<Shipping />} />
-        <Route path="/layanan/shipping/husbandry" element={<Husbandry />} />
+        <Route
+          path="/layanan/shipping/shipping-agency"
+          element={<Shipping />}
+        />
+        <Route
+          path="/layanan/shipping/husbandry-service"
+          element={<Husbandry />}
+        />
         <Route
           path="/layanan/shipping/protecting-agency"
           element={<ProtectingAgency />}

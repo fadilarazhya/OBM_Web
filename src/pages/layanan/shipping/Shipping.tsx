@@ -4,8 +4,77 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
+import Navs from "../../../component/Navs";
+import { NavLink } from "react-router-dom";
+import NavList from "../../../component/Test";
 
 export default () => {
+  const shippingAgency = [
+    <img
+      src="../img/service/shipping/shipping_agency/Bekerja_Depan_Layar.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Monthly_Meeting.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Meeting_1-2.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Monitoring_Penyandaran_Kapal.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Boarding_At_Anchorage.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Agent_On_Board.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Document_Checking.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Document_Checking_2.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Reporting.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/In_Out_Clearence.jpeg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Free_Pratique_Clearence.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Custom_Clearence.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Hand_Over_Document_Clearence.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Diskusi_Dengan_Pandu2.jpeg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Diskusi_Dengan_Pandu.jpeg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/shipping/shipping_agency/Create_Invoice.jpeg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+  ];
   return (
     <>
       <Navbar />
@@ -18,6 +87,7 @@ export default () => {
 
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
+          <Navs />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[800px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
               <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:my-20">
@@ -78,7 +148,7 @@ export default () => {
           </div>
         </section>
       </div>
-      <ImageSlide />
+      <ImageSlide items={shippingAgency} />
       <div className="bg-pr08">
         <Card
           imageContent="../img/service/offering.JPG"

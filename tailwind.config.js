@@ -13,6 +13,7 @@ export default {
     extend: {
       colors: {
         pr00: "#D7D8EF",
+        pr02: "#9D9ED7",
         pr03: "#8181CB",
         pr07: "#313277",
         pr08: " #25265A",

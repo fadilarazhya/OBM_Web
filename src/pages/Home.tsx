@@ -41,9 +41,9 @@ export default () => {
               yang terukur secara konsisten untuk kesuksesan bisnis customer
               sebagai mitra usaha.
             </p>
-            <Button variant="primary">
-              <a href="/tentang">Selengkapnya</a>
-            </Button>
+            <a href="/tentang">
+              <Button variant="primary">Selengkapnya</Button>
+            </a>
           </div>
 
           <div className="lg:col-span-3 mt-10 lg:mt-0">

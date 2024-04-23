@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import compro from "../assets/docs/OBM_Company_Profile.pdf";
 
 function Jumbotron(content: any) {
   return (
@@ -18,7 +19,9 @@ function Jumbotron(content: any) {
           <p className="text-base mt-8 font-montserrat font-medium text-ne01 sm:text-lg/normal">
             {content.captionSection}
           </p>
-          <Button variant="outline">{content.btnAction}</Button>
+          <a href={compro} target="_blank">
+            <Button variant="outline">{content.btnAction}</Button>
+          </a>
         </div>
       </div>
     </section>

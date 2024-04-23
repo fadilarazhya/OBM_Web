@@ -26,7 +26,7 @@ function Navbar() {
           </div>
         </div>
         <nav
-          className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+          className="relative max-w-7xl w-full px-4 sm:flex sm:items-center sm:justify-between"
           aria-label="Global">
           <div className="flex items-center justify-between">
             <a href="/">
@@ -63,61 +63,61 @@ function Navbar() {
           </div>
           <div
             id="navbar-collapse-with-animation"
-            className="divide-y-4 divide-slate-400/25 lg:divide-none hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
-            <div className="flex flex-col mb-8 lg:mb-0 gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
+            className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+            <div className="flex flex-col mb-14 lg:mb-0 gap-x-0 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
               <a
-                className="font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
+                className="border-y border-pr00 py-4 sm:border-none font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
                 href="/tentang"
                 aria-current="page">
                 Tentang
               </a>
-              <div className="hs-dropdown border-y-1 border-pr07 lg:border-none [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
+              <div className="border-b border-pr00 py-4 sm:border-none hs-dropdown lg:border-none [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full text-pr08 font-montserrat font-semibold uppercase hs-dropdown-open:bg-pr08 hs-dropdown-open:text-ne01">
+                  className="flex items-center w-full text-pr08 font-montserrat font-semibold uppercase hs-dropdown-open:bg-pr08 hs-dropdown-open:text-ne01 hs-dropdown-open:py-4 lg:hs-dropdown-open:bg-ne01 lg:hs-dropdown-open:py-0 lg:hs-dropdown-open:text-pr08">
                   Layanan
                 </button>
 
-                <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 bg-pr08 md:bg-ne01 md:text-pr08 sm:shadow-md rounded-none p-2 before:absolute top-full sm:border before:-top-5 before:start-0 before:w-full before:h-5">
+                <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 bg-pr07 md:border-t md:border-pr00 md:bg-ne01 md:text-pr08 sm:shadow-md rounded-none p-2 before:absolute top-full sm:border before:-top-5 before:start-0 before:w-full before:h-5">
                   <a
-                    className="flex items-center gap-x-3.5 py-2 px-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
+                    className="flex items-center gap-x-3.5 p-4 lg:px-2 lg:pt-4 lg:pb-0 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
                     href="/layanan/shipping">
                     Shipping
                   </a>
                   <a
-                    className="flex items-center gap-x-3.5 py-2 px-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
+                    className="flex items-center gap-x-3.5 p-4 lg:px-2 lg:py-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
                     href="/layanan/marine">
                     Marine
                   </a>
                   <a
-                    className="flex items-center gap-x-3.5 py-2 px-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
+                    className="flex items-center gap-x-3.5 p-4 lg:px-2 lg:pb-3 lg:pt-0 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
                     href="/layanan/port-service">
                     Port Service
                   </a>
                   <a
-                    className="flex items-center gap-x-3.5 py-2 px-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
+                    className="flex items-center gap-x-3.5 p-4 lg:px-2 lg:pt-0 lg:pb-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
                     href="/layanan/logistik">
                     Logistics & Transportation
                   </a>
                   <a
-                    className="flex items-center gap-x-3.5 py-2 px-3 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
+                    className="flex items-center gap-x-3.5 p-4 lg:px-2 lg:pt-0 lg:pb-6 text-ne01 md:text-pr08 font-montserrat font-semibold hover:text-sc06"
                     href="/layanan/konsultan">
                     Konsultan & Marine Correspondent
                   </a>
                 </div>
               </div>
               <a
-                className="font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
+                className="border-b border-pr00 py-4 sm:border-none font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
                 href="/quality">
                 Quality
               </a>
               <a
-                className="font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
+                className="border-b border-pr00 py-4 sm:border-none font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
                 href="/portofolio">
                 Portofolio
               </a>
               <a
-                className="font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
+                className="border-b border-pr00 py-4 sm:border-none font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
                 href="/fasilitas">
                 Fasilitas
               </a>

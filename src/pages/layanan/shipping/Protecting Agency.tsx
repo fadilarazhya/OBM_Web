@@ -4,6 +4,9 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
+import { NavLink } from "react-router-dom";
+import NavList from "../../../component/Test";
+import Navs from "../../../component/Navs";
 
 export default () => {
   return (
@@ -18,6 +21,7 @@ export default () => {
 
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
+          <Navs />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
               <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-20">
@@ -49,7 +53,7 @@ export default () => {
           </div>
         </section>
       </div>
-      <ImageSlide />
+      {/* <ImageSlide /> */}
       <div className="bg-pr08">
         <Card
           imageContent="../../img/service/offering.JPG"
