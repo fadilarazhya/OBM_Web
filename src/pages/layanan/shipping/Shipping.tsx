@@ -7,6 +7,7 @@ import Card from "../../../component/Card";
 import Navs from "../../../component/Navs";
 import { NavLink } from "react-router-dom";
 import NavList from "../../../component/Test";
+import Navigation from "../../../component/Test";
 
 export default () => {
   const shippingAgency = [
@@ -75,6 +76,7 @@ export default () => {
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
   ];
+
   return (
     <>
       <Navbar />
@@ -90,14 +92,14 @@ export default () => {
           <Navs />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[800px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
-              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:my-20">
+              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-0 lg:mb-20">
                 <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                   Mewakili pemilik kapal atau pen-charter untuk mengurus
                   kepentingan kapal asing atau kapal nasional secara profesional
                   selama berada di suatu pelabuhan Indonesia berdasarkan
                   perjanjian kerja sama.
                 </p>
-                <p className="font-montserrat text-lg text-ne02 pb-6">
+                <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                   Kami berpengalaman menangani kapal General cargo, tanker,
                   Kapal Pesiar, kapal Supply, Tugboat dan Tongkang, Crew Boat,
                   Container, termasuk kapal offshore, kapal ro-ro, kapal perang,
@@ -107,31 +109,29 @@ export default () => {
                   spares logistics, underwater hull cleaning, emergency
                   handling, dll.
                 </p>
-                <p className="font-montserrat text-lg text-ne01 pb-6">
-                  <p className="font-montserrat text-lg text-ne02">
-                    Jenis service yang kami tawarkan meliputi :
-                    <p className="font-montserrat text-lg text-ne02 pb-6">
-                      <strong>1. Port Agent</strong> <br />
-                      Bertanggung jawab kepada pemilik kapal atau General Agent
-                      sehubungan dengan CIQP In/Out Clearance kapal serta
-                      berkomunikasi dengan instansi terkait di wilayah pelabuhan
-                      dimana kapal melaksanakan kegiatan.
-                    </p>
-                    <p className="font-montserrat text-lg text-ne02 pb-6">
-                      <strong>2. General Agent</strong>
-                      <br />
-                      Bertanggung jawab pada pemilik atau penyewa dengan
-                      menunjuk Agen Lokal untuk mengatur perkerjaan port agent.
-                    </p>
-                    <p className="font-montserrat text-lg text-ne02 pb-6">
-                      <strong>3. Owner Protecting Agent</strong>
-                      <br />
-                      Layanan kami tak terbatas pada port agent dan general
-                      agent, tetapi kami dapat berperan sebagai perwakilan owner
-                      untuk melaksanakan pengawasan terhadap suatu pekerjaan
-                      tertentu untuk melindungi kepentingan pemilik kapal di
-                      suatu wilayah kerja pelabuhan.
-                    </p>
+                <p className="font-montserrat text-base lg:text-lg text-ne01 pb-6">
+                  Jenis service yang kami tawarkan meliputi :
+                  <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
+                    <strong>1. Port Agent</strong> <br />
+                    Bertanggung jawab kepada pemilik kapal atau General Agent
+                    sehubungan dengan CIQP In/Out Clearance kapal serta
+                    berkomunikasi dengan instansi terkait di wilayah pelabuhan
+                    dimana kapal melaksanakan kegiatan.
+                  </p>
+                  <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
+                    <strong>2. General Agent</strong>
+                    <br />
+                    Bertanggung jawab pada pemilik atau penyewa dengan menunjuk
+                    Agen Lokal untuk mengatur perkerjaan port agent.
+                  </p>
+                  <p className="font-montserrat text-lg text-ne02 pb-6">
+                    <strong>3. Owner Protecting Agent</strong>
+                    <br />
+                    Layanan kami tak terbatas pada port agent dan general agent,
+                    tetapi kami dapat berperan sebagai perwakilan owner untuk
+                    melaksanakan pengawasan terhadap suatu pekerjaan tertentu
+                    untuk melindungi kepentingan pemilik kapal di suatu wilayah
+                    kerja pelabuhan.
                   </p>
                 </p>
               </div>

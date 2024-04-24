@@ -20,6 +20,7 @@ import Konsultan from "./pages/layanan/Konsultan.tsx";
 import Husbandry from "./pages/layanan/shipping/Husbandry.tsx";
 import ProtectingAgency from "./pages/layanan/shipping/Protecting Agency.tsx";
 import Kontak from "./pages/Kontak.tsx";
+import LaunchService from "./pages/layanan/shipping/Launch Service.tsx";
 
 const App = () => {
   return (
@@ -40,6 +41,11 @@ const App = () => {
           path="/layanan/shipping/protecting-agency"
           element={<ProtectingAgency />}
         />
+        <Route
+          path="/layanan/shipping/launch-service"
+          element={<LaunchService />}
+        />
+
         <Route path="/layanan/marine" element={<Marine />} />
         <Route path="/layanan/port-service" element={<PortService />} />
         <Route path="/layanan/logistik" element={<Logistic />} />

@@ -1,14 +1,94 @@
 import Navbar from "../../../component/Navbar";
-import Tabs from "../../../component/Tabs";
 import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
-import { NavLink } from "react-router-dom";
-import NavList from "../../../component/Test";
 import Navs from "../../../component/Navs";
+import Navigation from "../../../component/Test";
 
 export default () => {
+  const ownerPA = [
+    <img
+      src="../../img/service/shipping/opa/1_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/2_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/3_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/4_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/5_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/6_o.JPG"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/7_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/8_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/9_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/10_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/11_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/12_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/13_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/14_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/15_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/16_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/17_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/18_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/19_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/opa/20_o.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+  ];
   return (
     <>
       <Navbar />
@@ -24,7 +104,7 @@ export default () => {
           <Navs />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
-              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-20">
+              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-0">
                 <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                   Tetap terhubung dan perbaharui informasi kondisi kapal anda di
                   pelabuhan dengan menunjuk Owner Protecting Agent (OPA) untuk
@@ -32,7 +112,7 @@ export default () => {
                   perjanjian yang telah disepakati dengan pihak pencarter di
                   pelabuhan yang dikunjungi.
                 </p>
-                <p className="font-montserrat text-lg text-ne02 pb-6">
+                <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                   OBM akan melaksanakan pengawasan operasi dan perlindungan
                   kepentingan owner dan memberikan saran terhadap FDA,
                   Pembayaran, status kegiatan Operasional, Pemeriksaan dokumen
@@ -53,6 +133,7 @@ export default () => {
           </div>
         </section>
       </div>
+      <ImageSlide items={ownerPA} />
       {/* <ImageSlide /> */}
       <div className="bg-pr08">
         <Card

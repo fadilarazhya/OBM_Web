@@ -1,74 +1,39 @@
-import * as React from "react";
-import { NavLink } from "react-router-dom";
+// Navigation.tsx
 
-function NavList() {
-  // This styling will be applied to a <NavLink> when the
-  // route that it links to is currently selected.
-  let activeClassName = "text-sc06 border-pr07";
+import React from "react";
 
+interface NavLink {
+  label: string;
+  url: string;
+}
+
+interface NavigationProps {
+  links: NavLink[];
+}
+
+const Navigation: React.FC<NavigationProps> = ({ links }) => {
   return (
-    <nav className="flex flex-col lg:flex-row gap-x-6 justify-center text-center items-stretch mx-10 lg:ml-20 mt-10 my-4 sm:mx-20">
-      <div className="font-montserrat py-3 px-1 inline-flex border-b border-pr02 lg:border-none items-center gap-2 text-sm whitespace-nowrap text-pr08 hover:text-sc06">
-        <ul>
-          <li>
-            <NavLink
-              to="/layanan/shipping"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }>
-              Shipping Agency
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/layanan/shipping/husbandry-service"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }>
-              Husbandry Service
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/layanan/shipping/protecting-agency"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }>
-              Owner Protecting Agent
-            </NavLink>
-          </li>
-        </ul>
+    <nav>
+      <div className="">
+        <div className="flex flex-col lg:flex-row gap-x-6 justify-center text-center items-stretch mx-10 lg:ml-20 mt-10 my-4 lg:my-14">
+          <div className="flex">
+            <div className="">
+              <div className="ml-10 flex items-baseline space-x-4">
+                {links.map((link, index) => (
+                  <a
+                    key={index}
+                    href={link.url}
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium active:border-b active:border-sc06">
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <ul>
-        <li>
-          <NavLink
-            to="/layanan/shipping/shipping-agency"
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }>
-            About
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/layanan/shipping/husbandry-service">
-            {({ isActive }) => (
-              <span className={isActive ? activeClassName : undefined}>
-                Tasks
-              </span>
-            )}
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/layanan/shipping/protecting-agency"
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }>
-            Tasks
-          </NavLink>
-        </li>
-      </ul>
     </nav>
   );
-}
-export default NavList;
+};
+
+export default Navigation;

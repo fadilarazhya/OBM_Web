@@ -24,7 +24,7 @@ export default () => {
           <Navs />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
-              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-0">
+              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-20">
                 <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                   Kapal anda akan terus berlayar sambil kami mengirimkan
                   perbekalan, suku cadang, dan penggantian crew lewat laut tanpa
