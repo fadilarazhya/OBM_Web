@@ -4,6 +4,7 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import Card from "../../../component/Card";
 import ImageSlide from "../../../component/ImageSlide";
+import PortNavs from "../../../component/navs/Port Navs";
 
 export default () => {
   const mooringPilot = [
@@ -89,6 +90,7 @@ export default () => {
         captionSection="Kami melayani kapal anda secara terintegrasi"
         btnAction="none"
       />
+      <PortNavs />
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">

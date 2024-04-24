@@ -4,84 +4,68 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import Card from "../../../component/Card";
 import ImageSlide from "../../../component/ImageSlide";
-import PortNavs from "../../../component/navs/Port Navs";
+import LogisticNavs from "../../../component/navs/Logistic Navs";
 
 export default () => {
-  const dryDocking = [
+  const logisTransport = [
     <img
-      src="../../img/service/port_service/docking/1_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/1_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/2_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/2_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/3_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/3_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/4_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/4_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/5_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/5_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/6_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/6_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/7_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/7_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/8_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/8_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/9_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/9_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/10_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/10_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/11_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/11_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/12_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/12_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/13_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/13_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/14_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/14_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/port_service/docking/15_doc.jpg"
-      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
-    />,
-    <img
-      src="../../img/service/port_service/docking/16_doc.jpg"
-      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
-    />,
-    <img
-      src="../../img/service/port_service/docking/17_doc.jpg"
-      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
-    />,
-    <img
-      src="../../img/service/port_service/docking/18_doc.jpg"
-      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
-    />,
-    <img
-      src="../../img/service/port_service/docking/19_doc.jpg"
+      src="../img/service/logistic/logicstic_transport/15_log.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
   ];
@@ -89,26 +73,26 @@ export default () => {
     <>
       <Navbar />
       <Banner
-        bgImage="../../../img/service/port_service/docking/jumbotron.jpg"
-        headCaption="Port Service"
-        captionSection="Kami melayani kapal anda secara terintegrasi"
+        bgImage="../img/service/logistic/logistic_jumbotron.jpeg"
+        headCaption="Logistic"
+        captionSection="Kami menghadirkan layanan satu pintu untuk berbagai jenis kebutuhan transportasi"
         btnAction="none"
       />
-      <PortNavs />
+      <LogisticNavs />
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
               <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-20">
                 <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
-                  OBM melayani jasa keagenan kapal docking mulai dari In/Out
-                  Clearance, sertifikasi, penanganan akomodasi dan perizinan
-                  crew, superintenden dan teknisi, manajemen dan pengiriman
-                  perlengkapan suku cadang.
+                  Untuk melakukan pengantaran barang dari bandara ke pelabuhan
+                  atau ke kapal atau ke alamat penerima barang.
                 </p>
                 <p className="font-montserrat text-lg text-ne02 pb-6">
-                  OBM juga menyediakan shipyard melalui kemitraan dengan sister
-                  company di wilayah Lamongan, Jawa Timur.
+                  Mencakup kegiatan pengiriman barang antar pulau atau antar
+                  daerah dengan transportasi laut, udara, dan darat, namun tidak
+                  terbatas pada kegiatan bongkar muat barang di pelabuhan maupun
+                  gudang.
                 </p>
               </div>
             </div>
@@ -116,7 +100,7 @@ export default () => {
               <div className="absolute inset-0">
                 <img
                   className="object-cover w-full h-full scale-100"
-                  src="../../img/service/port_service/docking/caption.jpg"
+                  src="../img/service/logistic/logicstic_transport/caption.jpg"
                   alt=""
                 />
               </div>
@@ -124,7 +108,7 @@ export default () => {
           </div>
         </section>
       </div>
-      <ImageSlide items={dryDocking} />
+      <ImageSlide items={logisTransport} />
       <div className="bg-pr08">
         <Card
           imageContent="../../img/service/offering.JPG"

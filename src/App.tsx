@@ -15,7 +15,7 @@ import Kapal from "./pages/fasilitas/Kapal.tsx";
 import Mobil from "./pages/fasilitas/Mobil.tsx";
 import Kantor from "./pages/fasilitas/Kantor.tsx";
 import Quality from "./pages/Quality.tsx";
-import Logistic from "./pages/layanan/Logistic.tsx";
+import Logistic from "./pages/layanan/logistic/Logistic.tsx";
 import Konsultan from "./pages/layanan/Konsultan.tsx";
 import Husbandry from "./pages/layanan/shipping/Husbandry.tsx";
 import ProtectingAgency from "./pages/layanan/shipping/Protecting Agency.tsx";
