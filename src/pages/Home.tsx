@@ -115,7 +115,7 @@ export default () => {
         <div className="cards flex justify-center items-center flex-wrap m-4">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3">
             <a
-              href="#"
+              href="/layanan/shipping"
               className="m-4 w-352 h-480 text-ne01 text-left grid bg-cover lg:w-320 xl:w-352 bg-[url('./img/home_assets/shipping.jpeg')] hover:drop-shadow-md">
               <div className="w-352 h-480 col-start-1 row-start-1 bg-ne02 lg:w-320 xl:w-352 bg-opacity-50 hover:bg-opacity-75"></div>
               <div className="p-10 col-start-1 row-start-1 mx-auto my-auto">
@@ -134,7 +134,7 @@ export default () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/layanan/shipping"
               className="m-4 w-352 h-480 text-white text-left grid bg-cover lg:w-320 xl:w-352 bg-[url('./img/home_assets/agency.jpg')] hover:drop-shadow-md">
               <div className="w-352 h-480 col-start-1 row-start-1 bg-ne02 lg:w-320 xl:w-352 bg-opacity-50 hover:bg-opacity-75"></div>
               <div className="p-10 col-start-1 row-start-1 mx-auto my-auto">
@@ -148,7 +148,7 @@ export default () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/layanan/marine"
               className="m-4 w-352 h-480 text-white text-left grid bg-cover lg:w-320 xl:w-352 bg-[url('./img/home_assets/offshore.jpg')] hover:drop-shadow-md">
               <div className="w-352 h-480 col-start-1 row-start-1 bg-ne02 lg:w-320 xl:w-352 bg-opacity-50 hover:bg-opacity-75"></div>
               <div className="p-10 col-start-1 row-start-1 mx-auto my-auto">
@@ -163,7 +163,7 @@ export default () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/layanan/shipping/launch-service"
               className="m-4 w-352 h-480 text-white text-left grid bg-cover lg:w-320 xl:w-352 bg-[url('./img/home_assets/launch_service.jpeg')] bg-center hover:drop-shadow-md">
               <div className="w-352 h-480 col-start-1 row-start-1 bg-ne02 lg:w-320 xl:w-352 bg-opacity-50 hover:bg-opacity-75"></div>
               <div className="p-10 col-start-1 row-start-1 mx-auto my-auto">
@@ -178,7 +178,7 @@ export default () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/layanan/port-service"
               className="m-4 w-352 h-480 text-white text-left grid bg-cover lg:w-320 xl:w-352 bg-[url('./img/home_assets/mooring.jpg')] hover:drop-shadow-md">
               <div className="w-352 h-480 col-start-1 row-start-1 bg-ne02 lg:w-320 xl:w-352 bg-opacity-50 hover:bg-opacity-75"></div>
               <div className="p-10 col-start-1 row-start-1 mx-auto my-auto">
@@ -193,7 +193,7 @@ export default () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/layanan/shipping/husbandry-service"
               className="m-4 w-352 h-480 text-white text-left grid bg-cover lg:w-320 xl:w-352 bg-[url('./img/home_assets/husbandry.jpg')] bg-right hover:drop-shadow-md">
               <div className="w-352 h-480 col-start-1 row-start-1 bg-ne02 lg:w-320 xl:w-352 bg-opacity-50 hover:bg-opacity-75"></div>
               <div className="p-10 col-start-1 row-start-1 mx-auto my-auto">

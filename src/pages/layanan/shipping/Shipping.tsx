@@ -4,10 +4,8 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
-import Navs from "../../../component/Navs";
+import Navs from "../../../component/navs/Shipping Navs";
 import { NavLink } from "react-router-dom";
-import NavList from "../../../component/Test";
-import Navigation from "../../../component/Test";
 
 export default () => {
   const shippingAgency = [

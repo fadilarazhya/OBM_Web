@@ -6,6 +6,80 @@ import Card from "../../component/Card";
 import ImageSlide from "../../component/ImageSlide";
 
 export default () => {
+  const consulTant = [
+    <img
+      src="../img/service/consultant/1_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/2_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/3_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/4_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/5_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/6_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/7_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/8_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/9_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/10_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/11_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/12_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/13_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/14_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/15_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/16_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/17_k.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/consultant/consultant_jumbotron.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+  ];
   return (
     <>
       <Navbar />
@@ -44,7 +118,7 @@ export default () => {
           </div>
         </div>
       </section>
-      <ImageSlide />
+      <ImageSlide items={consulTant} />
 
       <div className="bg-pr08">
         <Card

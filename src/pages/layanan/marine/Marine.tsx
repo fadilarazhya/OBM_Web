@@ -3,9 +3,40 @@ import Tabs from "../../../component/Tabs";
 import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import Card from "../../../component/Card";
+import MarineNavs from "../../../component/navs/Marine Navs";
 import ImageSlide from "../../../component/ImageSlide";
 
 export default () => {
+  const offShore = [
+    <img
+      src="../img/service/marine/offshore/1_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/marine/offshore/2_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/marine/offshore/3_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/marine/offshore/4_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/marine/offshore/5_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/marine/offshore/6_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../img/service/marine/offshore/7_off.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+  ];
   return (
     <>
       <Navbar />
@@ -15,6 +46,7 @@ export default () => {
         captionSection="Penghubung bisnis intermoda transportasi dan pengelolaan potensi ekonomi sumber daya laut"
         btnAction="none"
       />
+      <MarineNavs />
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
@@ -53,7 +85,7 @@ export default () => {
           </div>
         </section>
       </div>
-      <ImageSlide />
+      <ImageSlide items={offShore} />
       <div className="bg-pr08">
         <Card
           imageContent="../../img/service/offering.JPG"

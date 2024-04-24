@@ -4,7 +4,7 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
-import Navs from "../../../component/Navs";
+import Navs from "../../../component/navs/Shipping Navs";
 import NavList from "../../../component/Test";
 
 export default () => {
@@ -31,6 +31,58 @@ export default () => {
     />,
     <img
       src="../../img/service/shipping/husbandry/6_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/7_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/8_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/9_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/10_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/11_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/12_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/13_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/14_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/15_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/16_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/17_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/18_h.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/husbandry/19_h.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
   ];

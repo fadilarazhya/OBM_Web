@@ -6,9 +6,67 @@ import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
 import { NavLink } from "react-router-dom";
 import NavList from "../../../component/Test";
-import Navs from "../../../component/Navs";
+import Navs from "../../../component/navs/Shipping Navs";
 
 export default () => {
+  const launchService = [
+    <img
+      src="../../img/service/shipping/launch/1_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/2_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/3_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/4_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/5_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/6_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/7_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/8_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/9_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/10_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/11_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/12_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/13_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/shipping/launch/14_l.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+  ];
   return (
     <>
       <Navbar />
@@ -43,7 +101,7 @@ export default () => {
               <div className="absolute inset-0">
                 <img
                   className="object-cover w-full h-full scale-100"
-                  src="../../img/service/shipping/opa/caption.jpg"
+                  src="../../img/service/shipping/launch/caption.jpg"
                   alt=""
                 />
               </div>
@@ -51,6 +109,7 @@ export default () => {
           </div>
         </section>
       </div>
+      <ImageSlide items={launchService} />
       {/* <ImageSlide /> */}
       <div className="bg-pr08">
         <Card

@@ -9,7 +9,7 @@ import Home from "./pages/Home.tsx";
 import Tentang from "./pages/Tentang.tsx";
 import Shipping from "./pages/layanan/shipping/Shipping.tsx";
 import Marine from "./pages/layanan/marine/Marine.tsx";
-import PortService from "./pages/layanan/Port Service.tsx";
+import PortService from "./pages/layanan/port/Port Service.tsx";
 import Portofolio from "./pages/Portofolio.tsx";
 import Kapal from "./pages/fasilitas/Kapal.tsx";
 import Mobil from "./pages/fasilitas/Mobil.tsx";
@@ -21,6 +21,8 @@ import Husbandry from "./pages/layanan/shipping/Husbandry.tsx";
 import ProtectingAgency from "./pages/layanan/shipping/Protecting Agency.tsx";
 import Kontak from "./pages/Kontak.tsx";
 import LaunchService from "./pages/layanan/shipping/Launch Service.tsx";
+import EmergencyResponse from "./pages/layanan/shipping/Emergency Response.tsx";
+import DryDocking from "./pages/layanan/port/Dry Docking.tsx";
 
 const App = () => {
   return (
@@ -45,9 +47,16 @@ const App = () => {
           path="/layanan/shipping/launch-service"
           element={<LaunchService />}
         />
-
+        <Route
+          path="/layanan/shipping/emergency-response"
+          element={<EmergencyResponse />}
+        />
         <Route path="/layanan/marine" element={<Marine />} />
         <Route path="/layanan/port-service" element={<PortService />} />
+        <Route
+          path="/layanan/port-service/dry-docking"
+          element={<DryDocking />}
+        />
         <Route path="/layanan/logistik" element={<Logistic />} />
         <Route path="/layanan/konsultan" element={<Konsultan />} />
         <Route path="/quality" element={<Quality />} />

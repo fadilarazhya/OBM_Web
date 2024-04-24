@@ -1,54 +1,54 @@
 import { NavLink, useLocation } from "react-router-dom";
 
-const Navs = () => {
+const MarineNavs = () => {
   let activeClassName = "text-sc06 lg:py-3 lg:px-1 lg:border-b lg:border-pr08";
   return (
     <section>
       <div className="flex flex-col lg:flex-row gap-x-6 justify-center text-center items-stretch mx-10 lg:ml-20 mt-10 my-4 lg:my-14">
         <div className="font-montserrat font-medium py-3 px-1 inline-flex border-b border-pr02 lg:border-none items-center gap-2 text-base whitespace-nowrap text-pr08 hover:text-sc06">
           <NavLink
-            to="/layanan/shipping"
+            to="/layanan/marine"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }
             end>
-            Shipping Agency
+            Offshore Support
           </NavLink>
         </div>
         <div className="font-montserrat font-medium py-3 px-1 inline-flex border-b border-pr02 lg:border-none items-center gap-2 text-base whitespace-nowrap text-pr08 hover:text-sc06">
           <NavLink
-            to="/layanan/shipping/husbandry-service"
+            to="/layanan/marine/ship-to-ship"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }>
-            Husbandry Service
+            Ship to Ship
           </NavLink>
         </div>
         <div className="font-montserrat font-medium py-3 px-1 inline-flex border-b border-pr02 lg:border-none items-center gap-2 text-base whitespace-nowrap text-pr08 hover:text-sc06 active:text-sc06 active:border-pr07">
           <NavLink
-            to="/layanan/shipping/protecting-agency"
+            to="/layanan/marine/ship-operator"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }>
-            Owner Protecting Agent
+            Ship Operator
           </NavLink>
         </div>
         <div className="font-montserrat font-medium py-3 px-1 inline-flex border-b border-pr02 lg:border-none items-center gap-2 text-base whitespace-nowrap text-pr08 hover:text-sc06">
           <NavLink
-            to="/layanan/shipping/launch-service"
+            to="/layanan/marine/ship-owner"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }>
-            Launch Service
+            Ship Owner
           </NavLink>
         </div>
         <div className="font-montserrat font-medium py-3 px-1 inline-flex border-b border-pr02 lg:border-none items-center gap-2 text-base whitespace-nowrap text-pr08 hover:text-sc06">
           <NavLink
-            to="/layanan/shipping/launch-service"
+            to="/layanan/marine/fpso"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }>
-            Emergency Response
+            FPSO
           </NavLink>
         </div>
       </div>
@@ -57,4 +57,4 @@ const Navs = () => {
   );
 };
 
-export default Navs;
+export default MarineNavs;

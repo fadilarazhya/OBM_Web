@@ -2,92 +2,81 @@ import Navbar from "../../../component/Navbar";
 import Tabs from "../../../component/Tabs";
 import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
-import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
-import { NavLink } from "react-router-dom";
-import NavList from "../../../component/Test";
-import Navs from "../../../component/navs/Shipping Navs";
+import ImageSlide from "../../../component/ImageSlide";
 
 export default () => {
-  const emergencyResponse = [
+  const dryDocking = [
     <img
-      src="../../img/service/shipping/emergency/1_e.jpg"
+      src="../img/service/port_service/mooring/1_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/2_e.jpg"
+      src="../img/service/port_service/mooring/2_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/3_e.jpg"
+      src="../img/service/port_service/mooring/3_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/4_e.jpg"
+      src="../img/service/port_service/mooring/4_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/5_e.jpg"
+      src="../img/service/port_service/mooring/5_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/6_e.jpg"
+      src="../img/service/port_service/mooring/6_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/7_e.jpg"
+      src="../img/service/port_service/mooring/7_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/8_e.jpg"
+      src="../img/service/port_service/mooring/8_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/9_e.jpg"
+      src="../img/service/port_service/mooring/9_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/10_e.jpg"
+      src="../img/service/port_service/mooring/10_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/11_e.jpg"
+      src="../img/service/port_service/mooring/11_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/12_e.jpg"
+      src="../img/service/port_service/mooring/12_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/13_e.jpg"
+      src="../img/service/port_service/mooring/13_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/14_e.jpg"
+      src="../img/service/port_service/mooring/14_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/15_e.jpg"
+      src="../img/service/port_service/mooring/15_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/16_e.jpg"
+      src="../img/service/port_service/mooring/16_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/17_e.jpg"
+      src="../img/service/port_service/mooring/17_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../../img/service/shipping/emergency/18_e.jpg"
-      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
-    />,
-    <img
-      src="../../img/service/shipping/emergency/19_e.jpg"
-      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
-    />,
-    <img
-      src="../../img/service/shipping/emergency/20_e.jpg"
+      src="../img/service/port_service/mooring/18_moor.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
   ];
@@ -95,29 +84,25 @@ export default () => {
     <>
       <Navbar />
       <Banner
-        bgImage="../../img/service/shipping/shipping_agency/Shipping_Agency_Jumbotron.jpg"
-        headCaption="Shipping"
-        captionSection="Melayani clearence CIQP dan sebagai mata rantai logistik kebutuhan kapal"
+        bgImage="../img/service/port_service/mooring/mooring_jumbotron.jpg"
+        headCaption="Port Service"
+        captionSection="Kami melayani kapal anda secara terintegrasi"
         btnAction="none"
       />
-
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
-          <Navs />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
-              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-0">
+              <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-20">
                 <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
-                  Tak ada yang dapat menyangkal terjadinya suatu kondisi
-                  darurat, baik karena bencana alam maupun karena kecelakaan,
-                  dan kami berharap semua kapal dan awak berlayar dengan
-                  selamat.
+                  OBM memberikan dukungan yang lengkap terhadap kebutuhan bisnis
+                  pelayaran termasuk layanan Kepil dan Mooring Master, baik di
+                  Pelabuhan, Offshore, dan kegiatan Ship to Ship.
                 </p>
-                <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
-                  OBM mampu bertindak sebagai korespondensi dengan otoritas
-                  lokal untuk memimpin penanganan darurat dan memberikan bantuan
-                  medis maupun Evakuasi kru lewat laut, udara, dan darat,
-                  termasuk pemulangan awak kapal sesuai kebutuhan.
+                <p className="font-montserrat text-lg text-ne02 pb-6">
+                  OBM menyiapkan tenaga kerja mooring yang profesional
+                  (tersertifikasi) untuk mencapai visi dan misi PT. Pelabuhan
+                  Persero Regional II sebagai mitra kerja.
                 </p>
               </div>
             </div>
@@ -125,7 +110,7 @@ export default () => {
               <div className="absolute inset-0">
                 <img
                   className="object-cover w-full h-full scale-100"
-                  src="../../img/service/shipping/emergency/caption.jpg"
+                  src=" ../img/service/port_service/mooring/caption.jpg"
                   alt=""
                 />
               </div>
@@ -133,8 +118,7 @@ export default () => {
           </div>
         </section>
       </div>
-      <ImageSlide items={emergencyResponse} />
-      {/* <ImageSlide /> */}
+      <ImageSlide items={dryDocking} />
       <div className="bg-pr08">
         <Card
           imageContent="../../img/service/offering.JPG"
