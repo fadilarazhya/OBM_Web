@@ -7,65 +7,69 @@ import ImageSlide from "../../../component/ImageSlide";
 import LogisticNavs from "../../../component/navs/Logistic Navs";
 
 export default () => {
-  const logisTransport = [
+  const terminalStevdr = [
     <img
-      src="../img/service/logistic/logicstic_transport/1_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/1_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/2_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/2_tst.jpeg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/3_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/3_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/4_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/4_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/5_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/5_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/6_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/6_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/7_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/7_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/8_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/8_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/9_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/9_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/10_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/10_tst.JPG"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/11_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/11_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/12_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/12_tst.JPG"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/13_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/13_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/14_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/14_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
     <img
-      src="../img/service/logistic/logicstic_transport/15_log.jpg"
+      src="../../img/service/logistic/terminal_stevedoring/15_tst.jpg"
+      className="object-cover w-screen sm:w-80 h-64 sm:h-52"
+    />,
+    <img
+      src="../../img/service/logistic/terminal_stevedoring/16_tst.jpg"
       className="object-cover w-screen sm:w-80 h-64 sm:h-52"
     />,
   ];
@@ -73,7 +77,7 @@ export default () => {
     <>
       <Navbar />
       <Banner
-        bgImage="../img/service/logistic/logistic_jumbotron.jpeg"
+        bgImage="../../img/service/logistic/logistic_jumbotron.jpeg"
         headCaption="Logistic"
         captionSection="Kami menghadirkan layanan satu pintu untuk berbagai jenis kebutuhan transportasi"
         btnAction="none"
@@ -85,14 +89,14 @@ export default () => {
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
               <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-20">
                 <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
-                  Untuk melakukan pengantaran barang dari bandara ke pelabuhan
-                  atau ke kapal atau ke alamat penerima barang.
+                  Fokus untuk mengoptimalkan layanan keagenan kami dengan
+                  menyediakan bongkar muat (stevedore) yang ditangani oleh
+                  sister company.
                 </p>
                 <p className="font-montserrat text-lg text-ne02 pb-6">
-                  Mencakup kegiatan pengiriman barang antar pulau atau antar
-                  daerah dengan transportasi laut, udara, dan darat, namun tidak
-                  terbatas pada kegiatan bongkar muat barang di pelabuhan maupun
-                  gudang.
+                  Untuk pertanyaan dalam istilah liner atau satu paket layanan
+                  persyaratan agen dan stevedore kami menawarkan beberapa diskon
+                  untuk penanganan agen.
                 </p>
               </div>
             </div>
@@ -100,7 +104,7 @@ export default () => {
               <div className="absolute inset-0">
                 <img
                   className="object-cover w-full h-full scale-100"
-                  src="../img/service/logistic/logicstic_transport/caption.jpg"
+                  src="../../img/service/logistic/terminal_stevedoring/caption.JPG"
                   alt=""
                 />
               </div>
@@ -108,7 +112,7 @@ export default () => {
           </div>
         </section>
       </div>
-      <ImageSlide items={logisTransport} />
+      <ImageSlide items={terminalStevdr} />
       <div className="bg-pr08">
         <Card
           imageContent="../../img/service/offering.JPG"

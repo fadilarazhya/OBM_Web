@@ -23,6 +23,13 @@ import Kontak from "./pages/Kontak.tsx";
 import LaunchService from "./pages/layanan/shipping/Launch Service.tsx";
 import EmergencyResponse from "./pages/layanan/shipping/Emergency Response.tsx";
 import DryDocking from "./pages/layanan/port/Dry Docking.tsx";
+import TerminalStevedoring from "./pages/layanan/logistic/Terminal Stevedoring.tsx";
+import Trucking from "./pages/layanan/logistic/Trucking.tsx";
+import Travel from "./pages/layanan/logistic/Travel.tsx";
+import STS from "./pages/layanan/marine/STS.tsx";
+import ShipOperator from "./pages/layanan/marine/Ship Operator.tsx";
+import ShipOwner from "./pages/layanan/marine/Ship Owner.tsx";
+import FPSO from "./pages/layanan/marine/FPSO.tsx";
 
 const App = () => {
   return (
@@ -52,12 +59,25 @@ const App = () => {
           element={<EmergencyResponse />}
         />
         <Route path="/layanan/marine" element={<Marine />} />
+        <Route path="/layanan/marine/ship-to-ship" element={<STS />} />
+        <Route
+          path="/layanan/marine/ship-operator"
+          element={<ShipOperator />}
+        />
+        <Route path="/layanan/marine/ship-owner" element={<ShipOwner />} />
+        <Route path="/layanan/marine/fpso" element={<FPSO />} />
         <Route path="/layanan/port-service" element={<PortService />} />
         <Route
           path="/layanan/port-service/dry-docking"
           element={<DryDocking />}
         />
         <Route path="/layanan/logistik" element={<Logistic />} />
+        <Route
+          path="/layanan/logistik/terminal-stevedoring"
+          element={<TerminalStevedoring />}
+        />
+        <Route path="/layanan/logistik/trucking" element={<Trucking />} />
+        <Route path="/layanan/logistik/travel" element={<Travel />} />
         <Route path="/layanan/konsultan" element={<Konsultan />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/portofolio" element={<Portofolio />} />
