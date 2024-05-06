@@ -10,7 +10,7 @@ function FasilitasCard(props: any) {
             src={props.imgAsset}
           />
         </div>
-        <div className="sm:flex-1 px-6 sm:py-4 lg:px-4 sm:mt-4 mt-6 sm:mt-10 ">
+        <div className="sm:flex-1 px-6 pb-8 sm:py-4 lg:px-4 sm:mt-4 mt-6 sm:mt-10 ">
           <p className="font-raleway text-xs sm:text-sm font-semibold text-pr07 sm:pb-2 uppercase">
             {props.asstType}
           </p>

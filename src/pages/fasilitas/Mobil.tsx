@@ -4,6 +4,7 @@ import Footer from "../../component/Footer";
 import Navbar from "../../component/Navbar";
 import FasilitasCard from "../../component/fasilitas/FasilitasCard";
 import FasilitasContent from "../../component/fasilitas/FasilitasContent";
+import FasilitasNavs from "../../component/navs/Fasilitas Navs";
 
 export default () => {
   const column1 = [
@@ -46,6 +47,7 @@ export default () => {
         headCaption="Fasilitas"
         captionSection="Armada pendukung"
       />
+      <FasilitasNavs />
       <FasilitasCard
         imgAsset="../img/fasilitas_assets/mvp.jpg"
         asstType="MVP Operation Cars"
@@ -71,7 +73,7 @@ export default () => {
         imageContent="../img/service/offering.JPG"
         contentTitle="Ajukan Permintaan Penawaran"
         captionText="Kami siap 24 jam untuk membantu Anda"
-        captionText1="Telp : +62 2974 3107 Fax : +62 2974 3107 HP : +628121919822 Mail :
+        captionText1="Telp : +62-2974-3107 HP : +628121919822 Mail :
             enquiries@orelabahari.co.id"
         btnAction="Offering"
       />

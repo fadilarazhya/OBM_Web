@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <>
-      <header className="flex flex-wrap sm:justify-start sm:flex-col z-50 w-full bg-ne01 border-b border-gray-200 text-sm sm:py-0">
+      <header className="sticky top-0 sm:relative flex flex-wrap sm:justify-start sm:flex-col z-50 w-full bg-ne01 border-b border-gray-200 text-sm sm:py-0">
         <div className="mx-auto w-full px-4 sm:px-6 lg:px-8 bg-pr08">
           <div className="flex items-center justify-end gap-x-5 w-full py-2">
             <a
@@ -30,7 +30,7 @@ function Navbar() {
           aria-label="Global">
           <div className="flex items-center justify-between">
             <a href="/">
-              <img className="w-16 py-3" src="/logo_obm.png" />
+              <img className="w-16 lg:mx-4 py-3" src="/logo_obm.png" />
             </a>
             <div className="sm:hidden">
               <button
@@ -64,7 +64,7 @@ function Navbar() {
           <div
             id="navbar-collapse-with-animation"
             className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
-            <div className="flex flex-col mb-14 lg:mb-0 gap-x-0 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
+            <div className="flex flex-col mb-14 sm:mb-0 gap-x-0 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
               <a
                 className="border-y border-pr00 py-4 sm:border-none font-montserrat font-semibold text-pr08 sm:py-6 hover:text-sc06 uppercase"
                 href="/tentang"

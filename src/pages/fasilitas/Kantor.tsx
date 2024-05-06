@@ -3,6 +3,7 @@ import Card from "../../component/Card";
 import Footer from "../../component/Footer";
 import Navbar from "../../component/Navbar";
 import FasilitasCard from "../../component/fasilitas/FasilitasCard";
+import FasilitasNavs from "../../component/navs/Fasilitas Navs";
 
 export default () => {
   const column1 = [
@@ -11,30 +12,11 @@ export default () => {
     { header: "Desc", accessor: "desc" },
   ];
   const data1 = [
-    { name: "Brand ", col: ":", desc: "Toyota " },
-    { name: "Capacity", col: ":", desc: "16 pax" },
-    { name: "Year ", col: ":", desc: "2019" },
-    { name: "Total unit", col: ":", desc: "10 units" },
-  ];
-  const column2 = [
-    { header: "Name", accessor: "name" },
-    { header: "Col", accessor: "col" },
-    { header: "Desc", accessor: "desc" },
-  ];
-  const data2 = [
-    { name: "Brand ", col: ":", desc: "Isuzu " },
-    { name: "Capacity", col: ":", desc: "4 persons" },
-    { name: "Year ", col: ":", desc: "2015" },
-    { name: "Total unit", col: ":", desc: "4 units" },
-  ];
-  const column3 = [
-    { header: "Name", accessor: "name" },
-    { header: "Col", accessor: "col" },
-    { header: "Desc", accessor: "desc" },
-  ];
-  const data3 = [
-    { name: "Brand", col: ":", desc: "Daihatsu" },
-    { name: "Year", col: ":", desc: "2023" },
+    {
+      name: "Alamat ",
+      col: ":",
+      desc: " Jl. Tenggiri No. 103 D, Tanjung Priok Jakarta Utara, 14320 Indonesia",
+    },
   ];
 
   return (
@@ -45,6 +27,7 @@ export default () => {
         headCaption="Fasilitas"
         captionSection="Armada pendukung"
       />
+      <FasilitasNavs />
       <FasilitasCard
         imgAsset="../img/fasilitas_assets/kantor.jpeg"
         asstType="Owned"
@@ -56,7 +39,7 @@ export default () => {
         imageContent="../img/service/offering.JPG"
         contentTitle="Ajukan Permintaan Penawaran"
         captionText="Kami siap 24 jam untuk membantu Anda"
-        captionText1="Telp : +62 2974 3107 Fax : +62 2974 3107 HP : +628121919822 Mail :
+        captionText1="Telp : +62 2974 3107 HP : +628121919822 Mail :
             enquiries@orelabahari.co.id"
         btnAction="Offering"
       />

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import EmailButton from "./EmailButton";
 
 function Card(props: any) {
   return (
@@ -21,7 +22,7 @@ function Card(props: any) {
           <p className="font-montserrat text-lg text-ne01 pb-4">
             {props.captionText1}
           </p>
-          <Button variant="outline">{props.btnAction}</Button>
+          <EmailButton emailAddress="enquiries@orelabahari.co.id" />
         </div>
       </div>
     </div>

@@ -2,8 +2,167 @@ import Navbar from "../component/Navbar";
 import Banner from "../component/Banner";
 import Footer from "../component/Footer";
 import Card from "../component/Card";
+import Timeline from "../component/Timeline";
 
 export default () => {
+  const tabs = [
+    {
+      label: "2017",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>PT. OBM didirikan sebagai perusahaan keagenan kapal</li>
+            <li>Agen pendukung armada PT. PGN LNG FSRU Lampung (Novasi)</li>
+            <li>
+              Agen pendukung armada PT. Timah Tbk Kepulauan Bangka (Novasi)
+            </li>
+            <li>
+              Terdaftar sebagai agen di PT. Pelabuhan Indonesia 2 (Persero)
+              Tanjung Priok
+            </li>
+            <li>
+              Terdaftar sebagai mitra tetap PT. Bank Mandiri Persero pengguna
+              layanan CMS (<i>cash management system</i>)
+            </li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2018",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2019",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2020",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2021",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2022",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2023",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      label: "2024",
+      content: (
+        <div className="font-montserrat text-base lg:text-lg">
+          <ul className="pl-4 list-disc">
+            <li>
+              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+            </li>
+            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
+            <li>
+              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
+              2018-2019
+            </li>
+            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
+            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+          </ul>
+        </div>
+      ),
+    },
+  ];
+
   return (
     <>
       <Navbar />
@@ -69,368 +228,206 @@ export default () => {
             Milestone
           </h1>
           <div className="items-center justify-center">
-            <div className="ps-2 my-2 first:mt-0">
-              <h1 className="text-2xl font-raleway font-medium uppercase text-pr07">
-                2017
+            <Timeline tabs={tabs} />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          className="relative bg-cover bg-center bg-[url('./img/tentang_assets/bg_visi_misi.jpg')] lg:h-[550px] w-full
+         flex  justify-center">
+          <div className="px-10 py-20 lg:px-0 lg:pl-32 lg:pr-20 lg:py-20py-8 bg-ne02 w-screen items-center h-full bg-opacity-75">
+            <div className="flex flex-col lg:flex-row gap-x-10">
+              <div className="mb-10 mx-0">
+                <h2 className="font-raleway text-3xl font-semibold text-ne01 mb-6">
+                  Visi
+                </h2>
+                <p className="font-montserrat text-base lg:text-lg text-ne01">
+                  Menjadi prioritas pelanggan, sebagai penyedia jasa terpilih
+                  untuk keagenan kapal yang bermutu, berkualitas, terpercaya,
+                  dan handal.
+                </p>
+              </div>
+              <div className="">
+                <h2 className="font-raleway text-3xl font-semibold text-ne01 mb-6">
+                  Misi
+                </h2>
+                <p className="font-montserrat text-base lg:text-lg text-ne01">
+                  <ul className="list-disc">
+                    <li>
+                      Bekerja dengan semangat excellent di dalam semua proses
+                      dan fokus pada kepuasan pelanggan tanpa mengabaikan K3L
+                      serta perbaikan berkelanjutan untuk membangun kepercayaan
+                      pelanggan.
+                    </li>
+                    <li>
+                      Berusaha kompetitif dengan mempersempit jarak antara
+                      persyaratan pelanggan dengan kemampuan perusahaan
+                      Membangun solusi inovatif, tepat mutu, tepat waktu, dan
+                      tepat anggaran.
+                    </li>
+                    <li>
+                      Mencegah terjadinya accident maupun incident yang
+                      mengakibatkan kerugian fisik maupun materi dan hilangnya
+                      waktu kerja.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="relative">
+        <section className="bg-ne01 overflow-hidden">
+          <div className="mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:my-20">
+            <div>
+              <h1 className="pb-8 text-3xl font-raleway text-medium text-ne02 sm:text-4xl">
+                Value
               </h1>
-            </div>
-
-            <div className="flex gap-x-3">
-              <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-pr03">
-                <div className="relative z-10 size-7 flex justify-center items-center">
-                  <div className="size-2 rounded-full bg-pr03"></div>
-                </div>
-              </div>
-
-              <div className="grow pt-0.5 pb-8">
-                <h2 className="flex gap-x-1.5 font-semibold text-lg text-sc06">
-                  PT. OBM DIDIRIKAN SEBAGAI PERUSAHAAN KEAGENAN KAPAL
-                </h2>
-                <p className="mt-1 text-sm text-ne02"></p>
-              </div>
-            </div>
-
-            <div className="flex gap-x-3">
-              <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
-                <div className="relative z-10 size-7 flex justify-center items-center">
-                  <div className="size-2 rounded-full bg-gray-400"></div>
-                </div>
-              </div>
-
-              <div className="grow pt-0.5 pb-8">
-                <h2 className="flex gap-x-1.5 text-base font-montserrat text-ne02">
-                  Agen pendukung armada PT. PGN LNG FSRU Lampung (Novasi)
-                </h2>
-              </div>
-            </div>
-
-            <div className="flex gap-x-3">
-              <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
-                <div className="relative z-10 size-7 flex justify-center items-center">
-                  <div className="size-2 rounded-full bg-gray-400"></div>
-                </div>
-              </div>
-
-              <div className="grow pt-0.5 pb-8">
-                <h3 className="flex gap-x-1.5 font-semibold text-gray-800">
-                  Marked "Install Charts" completed
-                </h3>
-                <p className="mt-1 text-sm text-gray-600">
-                  Finally! You can check it out here.
+              <div className="mb-10">
+                <p className="hidden lg:inline-block font-montserrat text-lg text-ne02 pb-6">
+                  OBM tidak mengambil keuntungan semata dari customer, namun
+                  mengundang mereka sebagai mitra atau partner untuk
+                  keberhasilan bersama. Kinerja professional sebagai niat yang
+                  baik akan menguntungkan semua pihak dan membawa perusahaan
+                  berjalan pada jalur yang sesuai untuk pencapaian nilai sosial
+                  tertinggi, yaitu budaya berbagi dimulai dari kesejahteraan
+                  karyawan dan pertumbuhan mitra usaha.
                 </p>
-                <button
-                  type="button"
-                  className="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
-                  <img
-                    className="flex-shrink-0 size-4 rounded-full"
-                    src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80"
-                    alt="Image Description"
-                  />
-                  James Collins
-                </button>
-              </div>
-            </div>
-
-            <div className="ps-2 my-2 first:mt-0">
-              <h3 className="text-xs font-medium uppercase text-gray-500">
-                31 Jul, 2023
-              </h3>
-            </div>
-
-            <div className="flex gap-x-3">
-              <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
-                <div className="relative z-10 size-7 flex justify-center items-center">
-                  <div className="size-2 rounded-full bg-gray-400"></div>
-                </div>
-              </div>
-
-              <div className="grow pt-0.5 pb-8">
-                <h3 className="flex gap-x-1.5 font-semibold text-gray-800">
-                  Take a break ⛳️
-                </h3>
-                <p className="mt-1 text-sm text-gray-600">
-                  Just chill for now... 😉
+                <p className="lg:hidden lg:inline-block font-montserrat text-lg text-ne02 pb-6">
+                  OBM tidak mengambil keuntungan semata dari customer, namun
+                  mengundang mereka sebagai mitra atau partner untuk
+                  keberhasilan bersama.
+                </p>
+                <p className="lg:hidden lg:inline-block font-montserrat text-lg text-ne02 pb-6">
+                  Kinerja professional sebagai niat yang baik akan menguntungkan
+                  semua pihak dan membawa perusahaan berjalan pada jalur yang
+                  sesuai untuk pencapaian nilai sosial tertinggi, yaitu budaya
+                  berbagi dimulai dari kesejahteraan karyawan dan pertumbuhan
+                  mitra usaha.
                 </p>
               </div>
-            </div>
-
-            {/* <!-- Collapse --> */}
-            <div
-              id="hs-timeline-collapse"
-              className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300"
-              aria-labelledby="hs-timeline-collapse-content">
-              <div className="ps-2 my-2">
-                <h3 className="text-xs font-medium uppercase text-gray-500">
-                  30 Jul, 2023
-                </h3>
-              </div>
-
-              <div className="flex gap-x-3">
-                <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
-                  <div className="relative z-10 size-7 flex justify-center items-center">
-                    <div className="size-2 rounded-full bg-gray-400"></div>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 md:gap-10">
+                <div className="size-full bg-white border border-pr00 rounded-lg p-5">
+                  <div className="flex items-center gap-x-4 mb-3">
+                    <div className="inline-flex justify-center items-center size-[62px] rounded-full border-4 border-ne01 bg-pr00">
+                      <img
+                        className="h-10"
+                        src="./img/tentang_assets/icon/trust.png"
+                      />
+                    </div>
+                    <div className="flex-shrink-0">
+                      <h3 className="block font-raleway text-base lg:text-lg font-semibold text-pr08">
+                        Trust
+                      </h3>
+                    </div>
                   </div>
+                  <p className="font-montserrat text-sm lg:text-base text-ne02">
+                    Kami menciptakan hubungan yang saling menguntungkan antar
+                    pihak melalui layanan yang kami berikan.
+                  </p>
                 </div>
-
-                <div className="grow pt-0.5 pb-8">
-                  <h3 className="flex gap-x-1.5 font-semibold text-gray-800">
-                    Final touch ups
-                  </h3>
-                  <p className="mt-1 text-sm text-gray-600">
-                    Double check everything and make sure we're ready to go.
+                <div className="size-full bg-white border border-pr00 rounded-lg p-5">
+                  <div className="flex items-center gap-x-4 mb-3">
+                    <div className="inline-flex justify-center items-center size-[62px] rounded-full border-4 border-ne01 bg-pr00">
+                      <img
+                        className="h-10"
+                        src="./img/tentang_assets/icon/commitment.png"
+                      />
+                    </div>
+                    <div className="flex-shrink-0">
+                      <h3 className="block font-raleway text-base lg:text-lg font-semibold text-pr08">
+                        Commitment
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="font-montserrat text-sm lg:text-base text-ne02">
+                    Kesetaraan dan konsistensi dalam hubungan bisnis akan
+                    bertransformasi menjadi keharmonisan layaknya keluarga.
+                  </p>
+                </div>
+                <div className="size-full bg-white border border-pr00 rounded-lg p-5">
+                  <div className="flex items-center gap-x-4 mb-3">
+                    <div className="inline-flex justify-center items-center size-[62px] rounded-full border-4 border-ne01 bg-pr00">
+                      <img
+                        className="h-10"
+                        src="./img/tentang_assets/icon/competition.png"
+                      />
+                    </div>
+                    <div className="flex-shrink-0">
+                      <h3 className="block font-raleway text-base lg:text-lg font-semibold text-pr08">
+                        Challenger
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="font-montserrat text-sm lg:text-base text-ne02">
+                    Kompetisi merupakan kontrol kualitas kami
+                  </p>
+                </div>
+                <div className="size-full bg-white border border-pr00 rounded-lg rounded-lg p-5">
+                  <div className="flex items-center gap-x-4 mb-3">
+                    <div className="inline-flex justify-center items-center size-[62px] rounded-full border-4 border-ne01 bg-pr00">
+                      <img
+                        className="h-10"
+                        src="./img/tentang_assets/icon/team_work.png"
+                      />
+                    </div>
+                    <div className="flex-shrink-0">
+                      <h3 className="block font-raleway text-base lg:text-lg font-semibold text-pr08">
+                        Team Work
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="font-montserrat text-sm lg:text-base text-ne02">
+                    Semua anggota tim sama pentingnya, tidak ada bagian yang
+                    tidak penting.
+                  </p>
+                </div>
+                <div className="size-full bg-white border border-pr00 rounded-lg rounded-lg p-5">
+                  <div className="flex items-center gap-x-4 mb-3">
+                    <div className="inline-flex justify-center items-center size-[62px] rounded-full border-4 border-ne01 bg-pr00">
+                      <img
+                        className="h-10"
+                        src="./img/tentang_assets/icon/sharing.png"
+                      />
+                    </div>
+                    <div className="flex-shrink-0">
+                      <h3 className="block font-raleway text-base lg:text-lg font-semibold text-pr08">
+                        Sharing
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="font-montserrat text-sm lg:text-base text-ne02">
+                    Kami adalah Orela yang berarti “titipan dari Tuhan”, yaitu
+                    anugerah untuk berbagi.
+                  </p>
+                </div>
+                <div className="size-full bg-white border border-pr00 rounded-lg p-5">
+                  <div className="flex items-center gap-x-4 mb-3">
+                    <div className="inline-flex justify-center items-center size-[62px] rounded-full border-4 border-ne01 bg-pr00">
+                      <img
+                        className="h-10"
+                        src="./img/tentang_assets/icon/technology.png"
+                      />
+                    </div>
+                    <div className="flex-shrink-0">
+                      <h3 className="block font-raleway text-base lg:text-lg font-semibold text-pr08">
+                        Technology
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="font-montserrat text-sm lg:text-base text-ne02">
+                    Mampu beradaptasi dengan era baru dan transformasi
+                    digitalisasi teknologi.
                   </p>
                 </div>
               </div>
             </div>
-
-            <div className="ps-[7px] flex gap-x-3">
-              <button
-                type="button"
-                className="hs-collapse-toggle hs-collapse-open:hidden text-start inline-flex items-center gap-x-1 text-sm text-blue-600 font-medium decoration-2 hover:underline"
-                id="hs-timeline-collapse-content"
-                data-hs-collapse="#hs-timeline-collapse">
-                <svg
-                  className="flex-shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="m6 9 6 6 6-6"></path>
-                </svg>
-                Show older
-              </button>
-            </div>
           </div>
-        </div>
-      </section>
-
-      <div className="bg-white">
-        <div className="max-w-xl mx-auto p-8">
-          <div className="flow-root">
-            <ul className="-mb-8">
-              <li>
-                <div className="relative pb-8">
-                  <span
-                    className="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                    aria-hidden="true"></span>
-                  <div className="relative flex items-start space-x-3">
-                    <div>
-                      <div className="relative px-1">
-                        <div className="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
-                          <svg
-                            className="text-white h-5 w-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="min-w-0 flex-1 py-0">
-                      <div className="text-md text-gray-500">
-                        <div>
-                          <a
-                            href="#"
-                            className="font-medium text-gray-900 mr-2">
-                            v3.1.0
-                          </a>
-
-                          <a
-                            href="#"
-                            className="my-0.5 relative inline-flex items-center bg-white rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                            <div className="absolute flex-shrink-0 flex items-center justify-center">
-                              <span
-                                className="h-1.5 w-1.5 rounded-full bg-green-500"
-                                aria-hidden="true"></span>
-                            </div>
-                            <div className="ml-3.5 font-medium text-gray-900">
-                              Feature
-                            </div>
-                          </a>
-                        </div>
-                        <span className="whitespace-nowrap text-sm">
-                          9h ago
-                        </span>
-                      </div>
-                      <div className="mt-2 text-gray-700">
-                        <p>
-                          - Improved performance by optimizing database queries.
-                          <br />
-                          - Enhanced security measures to protect user data.
-                          <br />- Streamlined the user interface for a more
-                          intuitive experience.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="relative pb-8">
-                  <span
-                    className="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                    aria-hidden="true"></span>
-                  <div className="relative flex items-start space-x-3">
-                    <div>
-                      <div className="relative px-1">
-                        <div className="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
-                          <svg
-                            className="text-white h-5 w-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="min-w-0 flex-1 py-0">
-                      <div className="text-md text-gray-500">
-                        <div>
-                          <a
-                            href="#"
-                            className="font-medium text-gray-900 mr-2">
-                            v3.1.0
-                          </a>
-
-                          <a
-                            href="#"
-                            className="my-0.5 relative inline-flex items-center bg-white rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                            <div className="absolute flex-shrink-0 flex items-center justify-center">
-                              <span
-                                className="h-1.5 w-1.5 rounded-full bg-green-500"
-                                aria-hidden="true"></span>
-                            </div>
-                            <div className="ml-3.5 font-medium text-gray-900">
-                              Feature
-                            </div>
-                          </a>
-                        </div>
-                        <span className="whitespace-nowrap text-sm">
-                          9h ago
-                        </span>
-                      </div>
-                      <div className="mt-2 text-gray-700">
-                        <p>
-                          - Improved performance by optimizing database queries.
-                          <br />
-                          - Enhanced security measures to protect user data.
-                          <br />- Streamlined the user interface for a more
-                          intuitive experience.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div className="relative pb-8">
-                  <span
-                    className="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                    aria-hidden="true"></span>
-                  <div className="relative flex items-start space-x-3">
-                    <div>
-                      <div className="relative px-1">
-                        <div className="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
-                          <svg
-                            className="text-white h-5 w-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="min-w-0 flex-1 py-0">
-                      <div className="text-md text-gray-500">
-                        <div>
-                          <a
-                            href="#"
-                            className="font-medium text-gray-900 mr-2">
-                            v3.0.10
-                          </a>
-
-                          <a
-                            href="#"
-                            className="my-0.5 relative inline-flex items-center bg-white rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                            <div className="absolute flex-shrink-0 flex items-center justify-center">
-                              <span
-                                className="h-1.5 w-1.5 rounded-full bg-red-500"
-                                aria-hidden="true"></span>
-                            </div>
-                            <div className="ml-3.5 font-medium text-gray-900">
-                              Bug
-                            </div>
-                          </a>
-                        </div>
-                        <span className="whitespace-nowrap text-sm">
-                          6h ago
-                        </span>
-                      </div>
-                      <div className="mt-2 text-gray-700">
-                        <p>
-                          - Resolved a critical issue causing crashes on certain
-                          devices.
-                          <br />
-                          - Fixed a login error that prevented some users from
-                          accessing their accounts.
-                          <br />- Addressed a display glitch causing text
-                          overflow in long messages.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </section>
       </div>
-
-      <section
-        className="bg-cover bg-no-repeat bg-center"
-        style={{
-          backgroundImage: "url(./img/tentang_assets/bg_visi_misi.jpg)",
-        }}>
-        <div className="relative w-full h-auto inset-0 inset-0 bg-black opacity-35">
-          <div className="flex flex-col lg:flex-row flex-wrap lg:py-14 sm:gap-x-12 content-center items-center justify-center mx-10 sm:mx-20">
-            <div className="mt-10 lg:mt-0">
-              <h1>Visi</h1>
-            </div>
-            <div className="sm:flex-1 sm:shrink sm:mt-4">
-              <h1 className="font-raleway text-3xl sm:text-4xl text-ne01 py-4 sm:py-8"></h1>
-              <p className="font-montserrat text-lg text-ne01 pb-4"></p>
-              <p className="font-montserrat text-lg text-ne01 pb-4"></p>
-            </div>
-          </div>
-        </div>
-      </section>
       <Card
         imageContent="./img/service/quotation.jpg"
         contentTitle="Quotation"

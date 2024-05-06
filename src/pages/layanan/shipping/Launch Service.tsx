@@ -116,7 +116,7 @@ export default () => {
           imageContent="../../img/service/offering.JPG"
           contentTitle="Ajukan Permintaan Penawaran"
           captionText="Kami siap 24 jam untuk membantu Anda"
-          captionText1="Telp : +62 2974 3107 Fax : +62 2974 3107 HP : +628121919822 Mail :
+          captionText1="Telp : +62 2974 3107 HP : +628121919822 Mail :
             enquiries@orelabahari.co.id"
           btnAction="Offering"
         />

@@ -3,6 +3,7 @@ import Card from "../../component/Card";
 import Footer from "../../component/Footer";
 import Navbar from "../../component/Navbar";
 import FasilitasCard from "../../component/fasilitas/FasilitasCard";
+import FasilitasNavs from "../../component/navs/Fasilitas Navs";
 
 export default () => {
   const column1 = [
@@ -102,37 +103,7 @@ export default () => {
         headCaption="Fasilitas"
         captionSection="Armada pendukung"
       />
-      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-4">
-        <nav
-          className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-center"
-          aria-label="Global">
-          <div
-            id="navbar-alignment"
-            className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2">
-            <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-              <a
-                className="font-medium text-sc06 "
-                href="#"
-                aria-current="page"></a>
-              <a
-                className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                href="/fasilitas/mobil">
-                Account
-              </a>
-              <a
-                className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                href="#">
-                Work
-              </a>
-              <a
-                className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                href="#">
-                Blog
-              </a>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <FasilitasNavs />
       <FasilitasCard
         imgAsset="./img/fasilitas_assets/offshore_crew.jpg"
         asstType="Aluminium Crew Boat"
@@ -165,7 +136,7 @@ export default () => {
         imageContent="../img/service/offering.JPG"
         contentTitle="Ajukan Permintaan Penawaran"
         captionText="Kami siap 24 jam untuk membantu Anda"
-        captionText1="Telp : +62 2974 3107 Fax : +62 2974 3107 HP : +628121919822 Mail :
+        captionText1="Telp : +62 2974 3107 HP : +628121919822 Mail :
             enquiries@orelabahari.co.id"
         btnAction="Offering"
       />
