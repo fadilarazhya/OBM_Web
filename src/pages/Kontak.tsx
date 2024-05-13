@@ -23,7 +23,7 @@ export default () => {
           </h1>
         </div>
 
-        <div className="mx-6 mb-10 px-4 lg:px-0 lg:ml-32 grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <div className="mx-6 mb-10 px-4 lg:px-0 lg:ml-32 grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-pr00">
             <div className="flex items-center gap-x-4 pb-4 sm:pb-6">
               <div className="grow">
@@ -31,7 +31,7 @@ export default () => {
                   Dharma Kala’ Tiku
                 </h3>
                 <p className="text-xs font-montserrat text-pr08 uppercase">
-                  Director
+                  Direktur
                 </p>
               </div>
             </div>
@@ -58,6 +58,40 @@ export default () => {
                   <li>dharma@orelabahari.co.id</li>
                   <li>bm.orelatpk@yahoo.com</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-pr00">
+            <div className="flex items-center gap-x-4 pb-4 sm:pb-6">
+              <div className="grow">
+                <h3 className="text-xl font-medium text-pr07 pb-2">
+                  Capt. Alimudin
+                </h3>
+                <p className="text-xs font-montserrat text-pr08 uppercase">
+                  Kepala Cabang Jakarta
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-4 space-y-2">
+              <div className="flex gap-x-2">
+                <a
+                  className="inline-flex justify-center items-center size-8 text-sm font-medium text-pr08 disabled:opacity-50 disabled:pointer-events-none"
+                  href="https://wa.me/628121919822"
+                  target="_blank">
+                  <FaWhatsapp className="size-6" />
+                </a>
+                <a href="https://wa.me/62817106338" target="_blank">
+                  +62 817-106-338
+                </a>
+              </div>
+              <div className="flex gap-x-2 font-montserrat">
+                <a
+                  className="inline-flex justify-center items-center size-8 text-sm font-medium text-pr08 disabled:opacity-50 disabled:pointer-events-none"
+                  href="#">
+                  <FaEnvelope className="size-6" />
+                </a>
+                <p>alimudin@orelabahari.co.id</p>
               </div>
             </div>
           </div>

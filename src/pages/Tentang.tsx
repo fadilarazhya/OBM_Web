@@ -34,7 +34,7 @@ export default () => {
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
             <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+              Mendirikan cabang di Marunda, Kepulauan Seribu, dan Maringgai
             </li>
             <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
             <li>
@@ -52,16 +52,20 @@ export default () => {
       content: (
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
+            <li>Mendirikan cabang di Samarinda dan Balikpapan</li>
             <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+              Agen kapal milik PT. Lintas Borneo di wilayah Kalimantan Timur
             </li>
-            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
             <li>
-              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
-              2018-2019
+              Perpanjangan kontrak agen armada pendukung PT. Timah Tbk & PT.
+              FSRU PGN LNG Lampung periode 2019-2020
             </li>
-            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
-            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+            <li>Bermitra dengan Bank BNI</li>
+            <li>
+              Menjadi agen dengan layanan kapal ekspor terbanyak di Pelabuhan
+              MCT Marunda
+            </li>
+            <li>Terdaftar sebagai agen terminal PT. Interport</li>
           </ul>
         </div>
       ),
@@ -72,15 +76,17 @@ export default () => {
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
             <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+              Launching sistem digitalisi operasional, keuangan internal, &
+              eksternal selama pandemi Covid 19
             </li>
-            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
             <li>
-              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
-              2018-2019
+              Perpanjangan kontrak agen armada pendukung PT. Timah Tbk & PT. PGN
+              LNG FSRU Lampung pada periode 2020-2021
             </li>
-            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
-            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+            <li>
+              Sebagai pengguna pertama Cash Management Sistem Pelindo IV
+              Balikpapan dengan Bank BNI
+            </li>
           </ul>
         </div>
       ),
@@ -90,16 +96,15 @@ export default () => {
       content: (
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
+            <li>Mendirikan cabang di Tana Grogot</li>
             <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+              Perpanjang kontrak armada pendukung PT. Timah Tbk & PT. PGN LNG
+              FSRU Lampung periode 2021-2022
             </li>
-            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
             <li>
-              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
-              2018-2019
+              OBM mendapat tambahan modal untuk pengembangan usaha oleh Bank BNI
+              melalui Program Pembiayaan Pelabuhan
             </li>
-            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
-            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
           </ul>
         </div>
       ),
@@ -109,16 +114,23 @@ export default () => {
       content: (
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
+            <li>Mendirikan cabang di Cirebon dan Patimban</li>
             <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+              Memenangkan tender vendor Mooring/Unmooring Pelabuhan Tanjung
+              Priok periode 2022-2023{" "}
             </li>
-            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
             <li>
-              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
-              2018-2019
+              Ditunjuk sebagai agen, stevedore dan Trucking untuk penyedia
+              perakitan Hitachi Machinery Construction
             </li>
-            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
-            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+            <li>
+              Mendukung penanganan kargo dan pengiriman tenaga listrik untuk
+              PetroVietnam Power Ha Tinh di bawah PT. Sulzer
+            </li>
+            <li>
+              Sebagai agen pertama Operasi STS kapal Kargo Curah Cair di Muara
+              Berau
+            </li>
           </ul>
         </div>
       ),
@@ -129,15 +141,16 @@ export default () => {
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
             <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
+              Memenangkan tender Mooring/Unmooring di pelabuhan Tanjung Priok
+              periode 2023-2024
             </li>
-            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
             <li>
-              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
-              2018-2019
+              Perpanjangan kontrak agen armada pendukung PT. PGN LNG FSRU
+              Lampung selama periode 2023-2024
             </li>
+            <li>Penambahan armada kapal crew boat 60 pack</li>
             <li>Terdaftar sebagai agen PT. MCT Marunda</li>
-            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+            <li>Terdaftar sebagai anggota INSA</li>
           </ul>
         </div>
       ),
@@ -147,16 +160,7 @@ export default () => {
       content: (
         <div className="font-montserrat text-base lg:text-lg">
           <ul className="pl-4 list-disc">
-            <li>
-              MENDIRIKAN CABANG DI MARUNDA, KEP. SERIBU, MERAK, & MARINGGAI
-            </li>
-            <li>Agen armada pendukung PT. Timah. Tbk, Tanjung Balai, Riau</li>
-            <li>
-              Agen armada pendukung PT. FSRU PGN LNG Lampung selama periode
-              2018-2019
-            </li>
-            <li>Terdaftar sebagai agen PT. MCT Marunda</li>
-            <li>Terdaftar sebagai agen PT. Terminal Vopak Jakarta</li>
+            <li>Ditunjuk sebagai agen PT. SPIL di Merak</li>
           </ul>
         </div>
       ),
@@ -223,7 +227,7 @@ export default () => {
         </section>
       </div>
       <section>
-        <div className="mx-6 py-10 px-4 lg:mx-32">
+        <div className="mx-6 py-10 px-4 lg:mx-32 lg:mb-24">
           <h1 className="font-raleway text-3xl sm:text-4xl text-ne02 py-4 sm:py-8">
             Milestone
           </h1>
