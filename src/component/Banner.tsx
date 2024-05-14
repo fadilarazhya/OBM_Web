@@ -1,7 +1,6 @@
-import React from "react";
 import Button from "./Button";
 
-function Banner(content: any) {
+const Banner = (content: any) => {
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat"
@@ -23,6 +22,6 @@ function Banner(content: any) {
       </div>
     </section>
   );
-}
+};
 
 export default Banner;

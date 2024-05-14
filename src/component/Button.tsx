@@ -13,7 +13,6 @@ export default function Button({
   className,
   variant,
   size,
-  ...props
 }: ButtonProps) {
   return (
     <button className={cn(ButtonVariants({ variant, size, className }))}>

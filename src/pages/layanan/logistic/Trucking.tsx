@@ -1,12 +1,20 @@
 import Navbar from "../../../component/Navbar";
-import Tabs from "../../../component/Tabs";
 import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import Card from "../../../component/Card";
 import ImageSlide from "../../../component/ImageSlide";
-import LogisticNavs from "../../../component/navs/Logistic Navs";
+import Navs from "../../../component/Navs";
 
 export default () => {
+  const links = [
+    { path: "/logistik", label: "Logistics & Transportation" },
+    {
+      path: "/layanan/logistik/terminal-stevedoring",
+      label: "Terminal Stevedoring",
+    },
+    { path: "/layanan/logistik/trucking", label: "Trucking" },
+    { path: "/layanan/logistik/travel", label: "Travel" },
+  ];
   const truckIng = [
     <img
       src="../../img/service/logistic/trucking/1_trck.jpg"
@@ -42,7 +50,7 @@ export default () => {
         captionSection="Kami menghadirkan layanan satu pintu untuk berbagai jenis kebutuhan transportasi"
         btnAction="none"
       />
-      <LogisticNavs />
+      <Navs links={links} />
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">

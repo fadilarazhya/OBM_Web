@@ -1,12 +1,21 @@
 import Navbar from "../../../component/Navbar";
-import Tabs from "../../../component/Tabs";
 import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import Card from "../../../component/Card";
 import ImageSlide from "../../../component/ImageSlide";
-import PortNavs from "../../../component/navs/Port Navs";
+import Navs from "../../../component/Navs";
 
 export default () => {
+  const links = [
+    {
+      path: "/layanan/port-service",
+      label: "Mooring & Pilotage",
+    },
+    {
+      path: "/layanan/port-service/dry-docking",
+      label: "Dry Docking",
+    },
+  ];
   const mooringPilot = [
     <img
       src="../img/service/port_service/mooring/1_moor.jpg"
@@ -90,7 +99,7 @@ export default () => {
         captionSection="Kami melayani kapal anda secara terintegrasi"
         btnAction="none"
       />
-      <PortNavs />
+      <Navs links={links} />
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">

@@ -3,10 +3,25 @@ import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import ImageSlide from "../../../component/ImageSlide";
 import Card from "../../../component/Card";
-import Navs from "../../../component/navs/Shipping Navs";
-import Navigation from "../../../component/Test";
+import Navs from "../../../component/Navs";
 
 export default () => {
+  const links = [
+    {
+      path: "/layanan/shipping",
+      label: "Shipping Agency",
+    },
+    { path: "/layanan/shipping/husbandry-service", label: "Husbandry Service" },
+    {
+      path: "/layanan/shipping/protecting-agency",
+      label: "Owner Protecting Agent",
+    },
+    { path: "/layanan/shipping/launch-service", label: "Launch Service" },
+    {
+      path: "/layanan/shipping/emergency-response",
+      label: "Emergency Response",
+    },
+  ];
   const ownerPA = [
     <img
       src="../../img/service/shipping/opa/1_o.jpg"
@@ -101,7 +116,7 @@ export default () => {
 
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
-          <Navs />
+          <Navs links={links} />
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">
             <div className="overflow-y-auto relative flex items-center justify-center w-full lg:order-1 lg:w-7/12">
               <div className="relative mx-6 my-10 px-4 lg:px-0 lg:ml-32 lg:mr-20 lg:mt-0">

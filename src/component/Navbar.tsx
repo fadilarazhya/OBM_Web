@@ -77,10 +77,10 @@ const Navbar = () => {
                 Tentang
               </NavLink>
             </div>
-            <div className="border-b border-pr00 py-4 hs-dropdown lg:border-none [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] lg:[--trigger:hover] lg:py-6">
+            <div className="border-b border-pr00 py-5 hs-dropdown lg:border-none [--strategy:static] lg:[--strategy:fixed] [--adaptive:none] lg:[--trigger:hover]">
               <button
                 type="button"
-                className="flex items-center w-full text-pr08 font-montserrat font-semibold uppercase hs-dropdown-open:border-b hs-dropdown-open:border-pr00 hs-dropdown-open:pb-4 lg:hs-dropdown-open:bg-ne01 lg:hs-dropdown-open:py-0 lg:hs-dropdown-open:text-pr08">
+                className="flex items-center w-full text-pr08 font-montserrat font-semibold uppercase hs-dropdown-open:border-b hs-dropdown-open:border-pr00 hs-dropdown-open:pb-4 lg:hs-dropdown-open:border-none hs-dropdown-open:border-pr00 lg:hs-dropdown-open:bg-ne01 lg:hs-dropdown-open:py-0 lg:hs-dropdown-open:text-pr08">
                 Layanan
               </button>
 

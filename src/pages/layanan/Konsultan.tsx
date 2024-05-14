@@ -1,5 +1,4 @@
 import Navbar from "../../component/Navbar";
-import Tabs from "../../component/Tabs";
 import Banner from "../../component/Banner";
 import Footer from "../../component/Footer";
 import Card from "../../component/Card";

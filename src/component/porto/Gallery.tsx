@@ -1,5 +1,3 @@
-import Button from "../Button";
-
 function Gallery() {
   return (
     <div className="m-10 text-center">

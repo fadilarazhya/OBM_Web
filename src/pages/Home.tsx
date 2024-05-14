@@ -1,13 +1,9 @@
-import React from "react";
-import { Component } from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Jumbotron from "../component/Jumbotron";
 import Button from "../component/Button";
 import Content from "../component/Content";
-import Tabs from "../component/Tabs";
 import Card from "../component/Card";
-import Cards from "../component/Cards";
 
 export default () => {
   return (

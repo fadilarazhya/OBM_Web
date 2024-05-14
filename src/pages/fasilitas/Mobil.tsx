@@ -3,10 +3,14 @@ import Card from "../../component/Card";
 import Footer from "../../component/Footer";
 import Navbar from "../../component/Navbar";
 import FasilitasCard from "../../component/fasilitas/FasilitasCard";
-import FasilitasContent from "../../component/fasilitas/FasilitasContent";
-import FasilitasNavs from "../../component/navs/Fasilitas Navs";
+import Navs from "../../component/Navs";
 
 export default () => {
+  const links = [
+    { path: "/fasilitas", label: "Kapal" },
+    { path: "/fasilitas/mobil", label: "Mobil" },
+    { path: "/fasilitas/kantor", label: "Kantor" },
+  ];
   const column1 = [
     { header: "Name", accessor: "name" },
     { header: "Col", accessor: "col" },
@@ -47,7 +51,7 @@ export default () => {
         headCaption="Fasilitas"
         captionSection="Armada pendukung"
       />
-      <FasilitasNavs />
+      <Navs links={links} />
       <FasilitasCard
         imgAsset="../img/fasilitas_assets/mvp.jpg"
         asstType="MVP Operation Cars"

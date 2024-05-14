@@ -1,5 +1,3 @@
-import React from "react";
-import Button from "./Button";
 import EmailButton from "./EmailButton";
 
 function Card(props: any) {

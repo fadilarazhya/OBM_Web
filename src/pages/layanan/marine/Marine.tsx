@@ -1,12 +1,24 @@
 import Navbar from "../../../component/Navbar";
-import Tabs from "../../../component/Tabs";
 import Banner from "../../../component/Banner";
 import Footer from "../../../component/Footer";
 import Card from "../../../component/Card";
-import MarineNavs from "../../../component/navs/Marine Navs";
 import ImageSlide from "../../../component/ImageSlide";
+import Navs from "../../../component/Navs";
 
 export default () => {
+  const links = [
+    {
+      path: "/layanan/marine",
+      label: "Offshore Support",
+    },
+    { path: "/layanan/marine/ship-to-ship", label: "Ship to Ship" },
+    { path: "/layanan/marine/ship-operator", label: "Ship Operator" },
+    { path: "/layanan/marine/ship-owner", label: "Ship Owner" },
+    {
+      path: "/layanan/marine/fpso",
+      label: "FPSO",
+    },
+  ];
   const offShore = [
     <img
       src="../img/service/marine/offshore/1_off.jpg"
@@ -46,7 +58,7 @@ export default () => {
         captionSection="Penghubung bisnis intermoda transportasi dan pengelolaan potensi ekonomi sumber daya laut"
         btnAction="none"
       />
-      <MarineNavs />
+      <Navs links={links} />
       <div className="relative mb-20">
         <section className="bg-white overflow-hidden">
           <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[400px]">

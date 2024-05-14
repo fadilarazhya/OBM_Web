@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "preline/preline";
 import Home from "./pages/Home.tsx";
 import Tentang from "./pages/Tentang.tsx";

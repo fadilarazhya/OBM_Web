@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import compro from "../assets/docs/OBM_Company_Profile.pdf";
 
