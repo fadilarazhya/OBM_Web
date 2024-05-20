@@ -121,7 +121,7 @@ export default () => {
                   spares logistics, underwater hull cleaning, emergency
                   handling, dll.
                 </p>
-                <p className="font-montserrat text-base lg:text-lg text-ne01 pb-6">
+                <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                   Jenis service yang kami tawarkan meliputi :
                   <p className="font-montserrat text-base lg:text-lg text-ne02 pb-6">
                     <strong>1. Port Agent</strong> <br />

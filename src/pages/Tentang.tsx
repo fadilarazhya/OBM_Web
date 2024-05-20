@@ -3,6 +3,7 @@ import Banner from "../component/Banner";
 import Footer from "../component/Footer";
 import Card from "../component/Card";
 import Timeline from "../component/Timeline";
+import "../App.css";
 
 export default () => {
   const tabs = [
@@ -239,7 +240,7 @@ export default () => {
 
       <section>
         <div
-          className="relative bg-cover bg-center bg-[url('./img/tentang_assets/bg_visi_misi.jpg')] lg:h-[550px] w-full
+          className="relative bg-cover bg-center bg-[url('/img/tentang_assets/bg_visi_misi.jpg')] lg:h-[550px] w-full
          flex  justify-center">
           <div className="px-10 py-20 lg:px-0 lg:pl-32 lg:pr-20 lg:py-20py-8 bg-ne02 w-screen items-center h-full bg-opacity-75">
             <div className="flex flex-col lg:flex-row gap-x-10">

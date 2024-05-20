@@ -32,7 +32,7 @@ const Navbar = () => {
         aria-label="Global">
         <div className="flex items-center justify-between">
           <a href="/">
-            <img className="w-16 lg:mx-4 py-3" src="/logo_obm.png" />
+            <img className="w-16 lg:mx-4 py-3" src="../img/logo_obm.png" />
           </a>
           <div className="lg:hidden">
             <button
@@ -77,11 +77,24 @@ const Navbar = () => {
                 Tentang
               </NavLink>
             </div>
-            <div className="border-b border-pr00 py-5 hs-dropdown lg:border-none [--strategy:static] lg:[--strategy:fixed] [--adaptive:none] lg:[--trigger:hover]">
+            <div className="border-b border-pr00 py-5 hs-dropdown lg:border-none [--strategy:static] lg:[--strategy:fixed] [--adaptive:none]">
               <button
                 type="button"
                 className="flex items-center w-full text-pr08 font-montserrat font-semibold uppercase hs-dropdown-open:border-b hs-dropdown-open:border-pr00 hs-dropdown-open:pb-4 lg:hs-dropdown-open:border-none hs-dropdown-open:border-pr00 lg:hs-dropdown-open:bg-ne01 lg:hs-dropdown-open:py-0 lg:hs-dropdown-open:text-pr08">
                 Layanan
+                <svg
+                  className="ms-1 flex-shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
               </button>
 
               <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] lg:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 lg:w-48 hidden z-10 lg:border-t lg:border-pr00 bg-ne01 text-pr08 lg:shadow-md rounded-none p-2 before:absolute top-full sm:border before:-top-5 before:start-0 before:w-full before:h-5">
